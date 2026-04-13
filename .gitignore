@@ -1,6 +1,25 @@
 #stm32 conf
 .project
 .metadata
+.cproject
+.settings/
+
+/Debug/
+/Release/
+/build/
+/Build/
+
+*.launch
+*.log
+*.bin
+*.list
+*.tmp
+*.bak
+*.swp
+*.stackdump
+*.stlink
+*.svd
+*.DS_Store
 
 # Prerequisites
 *.d

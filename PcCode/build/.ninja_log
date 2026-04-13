@@ -1,0 +1,9 @@
+# ninja log v7
+37	1011	7977891418929017	CMakeFiles/RcCar.dir/src/steering.c.obj	294b892c7ccbc522
+33	963	7977891418887796	CMakeFiles/RcCar.dir/src/serial.c.obj	a0cc5f7b20ff180e
+28	1049	7977891418821868	CMakeFiles/RcCar.dir/src/main.c.obj	c6e84b598d29af17
+1049	1174	7977891429051682	RcCar.exe	3881a737ceb7a960
+33	888	7977899281464540	CMakeFiles/RcCar.dir/src/serial.c.obj	a0cc5f7b20ff180e
+28	913	7977899281449892	CMakeFiles/RcCar.dir/src/main.c.obj	c6e84b598d29af17
+36	927	7977899281523881	CMakeFiles/RcCar.dir/src/steering.c.obj	294b892c7ccbc522
+927	1060	7977899290443503	RcCar.exe	3881a737ceb7a960

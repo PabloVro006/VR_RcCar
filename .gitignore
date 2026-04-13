@@ -1,4 +1,4 @@
-#stm32 conf
+# Stm32 conf
 .project
 .metadata
 .cproject
@@ -20,6 +20,9 @@
 *.stlink
 *.svd
 *.DS_Store
+
+# VSCode
+.vscode/
 
 # Prerequisites
 *.d

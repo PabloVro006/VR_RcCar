@@ -39,8 +39,8 @@
 <rect x="600" y="300" width="150" height="55" class="box"></rect>
 <text x="675" y="332" class="text">Camera</text>
 
-<rect x="600" y="390" width="150" height="55" class="box"></rect>
-<text x="675" y="422" class="text">VR / Browser</text>
+<rect x="420" y="300" width="150" height="55" class="box"></rect>
+<text x="495" y="332" class="text">VR / Browser</text>
 
 <!-- Arrows top -->
 <line x1="200" y1="87" x2="240" y2="87" class="arrow"></line>
@@ -58,7 +58,7 @@
 <line x1="490" y1="235" x2="675" y2="300" class="arrow"></line>
 
 <!-- Camera to VR -->
-<line x1="675" y1="355" x2="675" y2="390" class="arrow"></line>
+<line x1="490" y1="235" x2="490" y2="300" class="arrow"></line>
   
 <!-- Labels -->
 <text x="220" y="73" class="boxtext">USB</text>
@@ -66,6 +66,6 @@
 <text x="580" y="73" class="boxtext">SPI</text>
 <text x="690" y="150" class="boxtext">RF</text>
 <text x="580" y="195" class="boxtext">SPI</text>
-<text x="690" y="372" class="boxtext">WiFi</text>
+<text x="510" y="275" class="boxtext">WiFi</text>
 
 </svg>

@@ -1,7 +1,7 @@
 # 🚗📡 Wireless FPV RC Car System
 
 <p align="center">
-  <img src="docs/images/cover.jpg" alt="Project Cover" width="800"/>
+  <img src="docs/images/cover.svg" alt="Project Cover" width="800"/>
 </p>
 
 <p align="center">
@@ -26,24 +26,8 @@
 ## 🧠 System Architecture
 
 <p align="center">
-  <img src="docs/images/architecture.png" width="800"/>
+  <img src="docs/images/architecture.svg" width="800"/>
 </p>
-
-### 🔄 Data Flow
-
-```text
-Steering Wheel
-      ↓ (USB)
-      PC (SDL3 App)
-      ↓ (Serial UART)
-   STM32 #1 (Transmitter)
-      ↓ (NRF24L01 RF)
-   STM32 #2 (Receiver)
-      ↓
-  Motor + Servo Control
-      ↓
-   Camera Module → Web Stream
-```
 
 ---
 
@@ -64,14 +48,6 @@ Steering Wheel
 * Servo Motor
 * Camera Module
 
----
-
-## 🔌 Wiring & Schematics
-
-<p align="center">
-  <img src="docs/images/wiring_tx.png" width="400"/>
-  <img src="docs/images/wiring_rx.png" width="400"/>
-</p>
 ---
 
 ## 💻 Software Overview

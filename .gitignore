@@ -21,6 +21,9 @@
 *.svd
 *.DS_Store
 
+CMakeCache.txt
+CMakeFiles/
+
 # VSCode
 .vscode/
 

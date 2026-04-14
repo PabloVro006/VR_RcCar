@@ -131,8 +131,7 @@ Flash both boards:
 ├── stm32_tx/           # Transmitter firmware
 ├── stm32_rx/           # Receiver firmware
 ├── docs/
-│   ├── images/
-│   └── schematics/
+│   └── images/
 └── README.md
 ```
 

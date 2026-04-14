@@ -28,7 +28,6 @@
 <p align="center">
   <img src="docs/images/architecture.svg" width="800"/>
 </p>
-
 ---
 
 ## 🧩 Hardware Components

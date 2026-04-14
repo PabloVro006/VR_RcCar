@@ -132,6 +132,7 @@ Flash both boards:
 ├── stm32_rx/           # Receiver firmware
 ├── docs/
 │   └── images/
+├── LICENSE
 └── README.md
 ```
 

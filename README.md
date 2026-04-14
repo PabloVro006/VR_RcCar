@@ -110,7 +110,7 @@ Flash both boards:
 ## 📷 Demo
 
 <p align="center">
-  <img src="docs/images/demo.gif" width="700"/>
+  <img src="docs/images/demo_placeholder.svg" width="700"/>
 </p>
 
 ---

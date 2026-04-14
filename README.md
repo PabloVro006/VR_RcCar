@@ -29,22 +29,6 @@
   <img src="docs/images/architecture.svg" width="800"/>
 </p>
 
-### 🔄 Data Flow
-
-```text
-Steering Wheel
-      ↓ (USB)
-      PC (SDL3 App)
-      ↓ (Serial UART)
-   STM32 #1 (Transmitter)
-      ↓ (NRF24L01 RF)
-   STM32 #2 (Receiver)
-      ↓
-  Motor + Servo Control
-      ↓
-   Camera Module → Web Stream
-```
-
 ---
 
 ## 🧩 Hardware Components

@@ -1,7 +1,7 @@
 # 🚗📡 Wireless FPV RC Car System
 
 <p align="center">
-  <img src="docs/images/cover.jpg" alt="Project Cover" width="800"/>
+  <img src="docs/images/cover.svg" alt="Project Cover" width="800"/>
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 ## 🧠 System Architecture
 
 <p align="center">
-  <img src="docs/images/architecture.png" width="800"/>
+  <img src="docs/images/architecture.svg" width="800"/>
 </p>
 
 ### 🔄 Data Flow

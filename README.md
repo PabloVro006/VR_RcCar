@@ -53,7 +53,7 @@ Steering Wheel
 
 * PC (Windows)
 * Steering Wheel Controller
-* STM32 (e.g., STM32F103 / STM32F4)
+* STM32
 * NRF24L01 Module
 
 ### 🚙 Receiver Side
@@ -62,7 +62,7 @@ Steering Wheel
 * NRF24L01 Module
 * DC Motor Driver (e.g., L298N / BTS7960)
 * Servo Motor
-* Camera Module (ESP32-CAM / USB cam + SBC)
+* Camera Module
 
 ---
 
@@ -72,20 +72,6 @@ Steering Wheel
   <img src="docs/images/wiring_tx.png" width="400"/>
   <img src="docs/images/wiring_rx.png" width="400"/>
 </p>
-
-### NRF24L01 ↔ STM32
-
-| NRF24L01 | STM32      |
-| -------- | ---------- |
-| VCC      | 3.3V       |
-| GND      | GND        |
-| CE       | GPIO       |
-| CSN      | SPI CS     |
-| SCK      | SPI SCK    |
-| MOSI     | SPI MOSI   |
-| MISO     | SPI MISO   |
-| IRQ      | (optional) |
-
 ---
 
 ## 💻 Software Overview
@@ -98,7 +84,7 @@ Steering Wheel
 
   * Read steering wheel input
   * Normalize control signals
-  * Send via serial (UART over USB)
+  * Send via serial
 
 ---
 
@@ -120,51 +106,14 @@ Steering Wheel
   * Servo (PWM)
 
 ---
-
-### 📷 Camera Streaming
-
-Depending on your implementation:
-
-#### Option 1: ESP32-CAM (Recommended)
-
-* Hosts its own web server
-* Streams MJPEG over WiFi
-
-#### Option 2: USB Camera + SBC (e.g., Raspberry Pi)
-
-* Use:
-
-  * `mjpg-streamer`
-  * `ffmpeg`
-  * `gstreamer`
-
----
-
-## 🌐 Live Streaming
-
-Access the stream via browser:
-
-```bash
-http://<camera-ip>:<port>
-```
-
-Example:
-
-```bash
-http://192.168.1.42:8080
-```
-
----
-
 ## 🛠️ Build & Setup
 
 ### PC Side
 
 ```bash
-git clone https://github.com/yourusername/yourrepo.git
+git clone https://github.com/PabloVro006/VR_RcCar
 cd pc-controller
-gcc main.c -lSDL3 -o controller
-./controller
+./run.bat
 ```
 
 ---
@@ -173,8 +122,7 @@ gcc main.c -lSDL3 -o controller
 
 Use:
 
-* STM32CubeIDE **or**
-* PlatformIO
+* STM32CubeIDE
 
 Flash both boards:
 
@@ -188,16 +136,6 @@ Flash both boards:
 <p align="center">
   <img src="docs/images/demo.gif" width="700"/>
 </p>
-
----
-
-## 🧪 Future Improvements
-
-* 🥽 VR headset integration (WebXR / OpenVR)
-* 📶 Telemetry feedback (speed, battery, signal strength)
-* 🧠 Autonomous driving mode
-* 📡 Longer range RF (LoRa alternative)
-* 🎯 PID tuning for smoother control
 
 ---
 
@@ -227,23 +165,3 @@ Flash both boards:
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, open an issue first.
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-## 🙌 Acknowledgements
-
-* STM32 ecosystem
-* NRF24L01 community libraries
-* SDL project
-
----
-
-<p align="center">
-  Built with ⚡, coffee ☕, and a love for embedded systems
-</p>

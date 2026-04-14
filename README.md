@@ -66,14 +66,6 @@ Steering Wheel
 
 ---
 
-## 🔌 Wiring & Schematics
-
-<p align="center">
-  <img src="docs/images/wiring_tx.png" width="400"/>
-  <img src="docs/images/wiring_rx.png" width="400"/>
-</p>
----
-
 ## 💻 Software Overview
 
 ### 🖥️ PC Application

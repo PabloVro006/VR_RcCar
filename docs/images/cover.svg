@@ -1,0 +1,19 @@
+<svg width="1000" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f2027"></stop>
+      <stop offset="50%" stop-color="#203a43"></stop>
+      <stop offset="100%" stop-color="#2c5364"></stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#grad)"></rect>
+
+  <text x="50%" y="45%" fill="white" font-size="36" text-anchor="middle" font-family="Arial">
+    Wireless FPV RC Car
+  </text>
+
+  <text x="50%" y="60%" fill="#00d4ff" font-size="18" text-anchor="middle" font-family="Arial">
+    STM32 • NRF24L01 • SDL3 • Real-time Control
+  </text>
+</svg>

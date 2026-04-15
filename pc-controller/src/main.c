@@ -7,7 +7,7 @@ static bool isJoystickConnected = 0;
 static SDL_Joystick *joystick = NULL;
 static ControlPacket pkt;
 static SerialPort sp;
-int retries = 3;
+static int retries = 3;
 
 int main(void) {
     while (retries--) {

@@ -73,35 +73,3 @@ Status run_program(void) {
     }
     return STATUS_OK;
 }
-
-/*
-
-if(isJoystickConnected != 1) {
-    int retries = 3;
-    while (!isJoystickConnected || retries > 0) {
-        retries--;
-        SDL_PumpEvents();
-        if (!SDL_Init(SDL_INIT_VIDEO | SDL_INIT_JOYSTICK | SDL_INIT_EVENTS)) {
-            LOG_ERR("SDL init failed: (error: %s)", SDL_GetError());
-            continue;
-        }
-        int count;
-        SDL_JoystickID *ids = SDL_GetJoysticks(&count);
-        if (ids == NULL) {
-            LOG_ERR("Failed to get ids");
-            continue;
-        }
-        joystick = SDL_OpenJoystick(ids[0]);
-        if (!joystick) {
-            LOG_ERR("Failed to open joystick (error: %s)", SDL_GetError());
-            continue;
-        }
-        LOG_INFO("Controller connected");
-        isJoystickConnected = 1;
-        SDL_free(ids);
-    }
-    if(isJoystickConnected != 1) return STATUS_ERROR;
-}
-
-
-*/

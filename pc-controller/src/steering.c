@@ -1,5 +1,6 @@
 #include "../inc/steering.h"
 
+/* STATIC HELPER FUNCTIONS */
 static i8 scale_axis(i16 value) {
     return (i8)(value / 256); // 0..32767 → 0..127
 }
@@ -15,7 +16,6 @@ static u8 crc8(const u8 *data, u8 len) {
     }
     return crc;
 }
-
 
 void get_pkt(ControlPacket* p, i16 s, i16 t, i16 b) {
     p->header   = PACKET_HEADER;

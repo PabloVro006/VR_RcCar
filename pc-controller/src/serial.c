@@ -1,5 +1,6 @@
 #include "../inc/serial.h"
 
+/* STATIC HELPER FUNCTIONS */
 static Status set_params(DCB* params) {
     if (params == NULL) {
         LOG_ERR("Parameters are NULL");
